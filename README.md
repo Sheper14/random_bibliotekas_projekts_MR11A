@@ -1,4 +1,4 @@
-# Python 'Random' bibliotēkas izpēte
+# Python [Random](https://docs.python.org/3/library/index.html) bibliotēkas izpēte
 
 
 
