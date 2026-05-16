@@ -9,9 +9,9 @@ def demo():
 
     # Vienkāršs piemērs
     deck = list(range(1, 11))
-    print("Pirms sajaušanas:", deck)
+    print("Pirms sajaukšanas:", deck)
     random.shuffle(deck)
-    print("Pēc sajaušanas: ", deck)
+    print("Pēc sajaukšanas: ", deck)
 
     # Pielietojums: kārtis
     print("\nPiemērs: kāršu sajaukšana")
@@ -19,7 +19,7 @@ def demo():
     values = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"]
     full_deck = [v + s for s in suits for v in values]
     random.shuffle(full_deck)
-    print("  Pirmās 5 kārtis pēc sajaušanas:", full_deck[:5])
+    print("  Pirmās 5 kārtis pēc sajaukšanas:", full_deck[:5])
 
 if __name__ == "__main__":
     demo()
