@@ -1,18 +1,18 @@
 # Funkcija: random.choices(population, weights=None, k=1)
-# Izvēlas k elementus no saraksta AR atkārtošanos; var norādīt svērtās vērtības
+# Izvēlas k elementus no saraksta AR atkārtošanos. Var norādīt svērtās vērtības
 
 import random
 
 def demo():
     print("=== random.choices(population, weights, k) ===")
-    print("Izvēlas vairākus elementus AR atkārtošanos, var izmantot svērtās vērtības\n")
+    print("Izvēlas vairākus elementus ar atkārtošanos, var izmantot svērtās vērtības\n")
 
     # Vienkāršs piemērs
     colors = ["sarkans", "zils", "zaļš", "dzeltens"]
     picked = random.choices(colors, k=5)
     print("5 nejauši krāsas (ar atkārtošanos):", picked)
 
-    # Piemērs ar svērtām vērtībām (weights): dažas izvēles ir ticamākas
+    # Piemērs ar svērtām vērtībām (weights)
     print("\nPiemērs ar svērtām vērtībām (sarkans 5x biežāk):")
     weights = [50, 10, 10, 10]
     results = random.choices(colors, weights=weights, k=20)

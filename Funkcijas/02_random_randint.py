@@ -13,8 +13,8 @@ def demo():
         roll = random.randint(1, 6)
         print(f"  Mešana {i+1}: {roll}")
 
-    #Pielietojums: loterija
-    print("\nPiemērs: loterija (izvēlē 6 skaitļus no 1-49)")
+    #Pielietojums - loterija
+    print("\nPiemērs: loterija (izvēlies 6 skaitļus no 1-49)")
     lottery = [random.randint(1, 49) for _ in range(6)]
     print(f"  Izlozētie skaitļi: {sorted(lottery)}")
 
